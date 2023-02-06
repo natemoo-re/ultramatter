@@ -63,7 +63,7 @@ const coerce = (value: string) => {
 }
 
 const yaml = (input: string): any => {
-  const YAML_OBJECT_RE = /(^[^\:\s]+):\n?([\s\S]*?(?=^\S)|[\s\S]*$)/gm;
+  const YAML_OBJECT_RE = /(^[^\:\s]+):(?!\/)\n?([\s\S]*?(?=^\S)|[\s\S]*$)/gm;
   const YAML_TOKENS_RE = /[\:\-\[\]\|\#]/gm;
   const YAML_COMMENT_RE = /#.*$/gm;
 

@@ -95,6 +95,7 @@ authors:
 title: 'Astro 1.0 Beta Release'
 description: 'The Astro 1.0 Beta is now available! This release marks the stabilization of all major APIs, with no more major breaking changes planned between now and the official v1.0 release.'
 publishDate: 'April 4, 2022'
+url: https://foobar.com/
 authors:
   - nate
   - fred
@@ -108,6 +109,7 @@ lang: 'en'
       title: 'Astro 1.0 Beta Release',
       description: 'The Astro 1.0 Beta is now available! This release marks the stabilization of all major APIs, with no more major breaking changes planned between now and the official v1.0 release.',
       publishDate: 'April 4, 2022',
+      url: "https://foobar.com/",
       authors: ['nate', 'fred'],
       socialImage: '/assets/blog/astro-1-beta-release/social.png',
       coverImage: '/assets/blog/astro-1-beta-release/cover.png',
