@@ -1,5 +1,11 @@
 # ultramatter
 
+## 0.0.4
+
+### Patch Changes
+
+- 6bcb289: Do not parse URLs as objects
+
 ## 0.0.3
 
 ### Patch Changes
